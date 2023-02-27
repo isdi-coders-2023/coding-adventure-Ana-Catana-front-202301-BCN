@@ -7,11 +7,11 @@ describe("Given Button component", () => {
       const textButton = "Sign up";
 
       render(<Button text={"Sign up"} />);
-      const expectedButtonText = screen.getByRole("button", {
+      const expectedButton = screen.getByRole("button", {
         name: textButton,
       });
 
-      expect(expectedButtonText).toBeInTheDocument();
+      expect(expectedButton).toBeInTheDocument();
     });
   });
 });

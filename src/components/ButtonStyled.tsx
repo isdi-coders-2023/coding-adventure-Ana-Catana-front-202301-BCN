@@ -4,7 +4,6 @@ import "@fontsource/saira-stencil-one";
 const ButtonStyled = styled.button`
   width: 323px;
   height: 40px;
-  border: none;
   font-family: "Saira Stencil One";
   font-size: 1.25rem;
   background: #cccf18;
@@ -13,6 +12,8 @@ const ButtonStyled = styled.button`
 
   @media (min-width: 900px) {
     opacity: 57%;
+    height: 57px;
+    width: 320px;
   }
 `;
 
