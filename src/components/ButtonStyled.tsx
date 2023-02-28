@@ -10,10 +10,12 @@ const ButtonStyled = styled.button`
   border-radius: 10px;
   cursor: pointer;
 
-  @media (min-width: 900px) {
+  &disabled {
     opacity: 57%;
+  }
+
+  @media (min-width: 900px) {
     height: 57px;
-    width: 320px;
   }
 `;
 
