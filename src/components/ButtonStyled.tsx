@@ -1,16 +1,15 @@
 import styled from "styled-components";
-import "@fontsource/saira-stencil-one";
 
 const ButtonStyled = styled.button`
-  width: 323px;
+  width: 90%;
   height: 40px;
-  font-family: "Saira Stencil One";
-  font-size: 1.25rem;
-  background: #cccf18;
+  font-family: ${(props) => props.theme.text.primaryStyle};
+  font-size: ${(props) => props.theme.text.primarySize};
+  background: ${(props) => props.theme.color.primary};
   border-radius: 10px;
   cursor: pointer;
 
-  &disabled {
+  :disabled {
     opacity: 57%;
   }
 

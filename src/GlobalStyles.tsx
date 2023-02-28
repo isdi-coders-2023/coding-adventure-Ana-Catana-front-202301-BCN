@@ -7,7 +7,7 @@ const GlobalStyles = createGlobalStyle`
 
 body {
   margin: 0;
-  font-family: "Roboto";
+  font-family: ${(props) => props.theme.text.primaryStyle}
 }
 
 h1,
