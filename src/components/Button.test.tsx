@@ -4,7 +4,7 @@ import { ThemeProvider } from "styled-components";
 import generalTheme from "../styles/generalTheme";
 
 describe("Given Button component", () => {
-  describe("When it's calls with the text 'Sign up'", () => {
+  describe("When it receives the text 'Sign up'", () => {
     test("Then it should show a button with the text 'Sign up'", () => {
       const text = "Sign up";
 
