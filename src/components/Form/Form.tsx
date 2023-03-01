@@ -4,9 +4,10 @@ const Form = (): JSX.Element => {
       <h3>Register for the event</h3>
       <form>
         <div>
-          <label>
-            Email
+          <label htmlFor="email">
+            email
             <input
+              id="email"
               type="email"
               name="email"
               placeholder="Introduce your email"
@@ -15,9 +16,10 @@ const Form = (): JSX.Element => {
           </label>
         </div>
         <div>
-          <label>
-            Password
+          <label htmlFor="password">
+            password
             <input
+              id="password"
               type="password"
               name="password"
               placeholder="Introduce your password"
@@ -26,9 +28,10 @@ const Form = (): JSX.Element => {
           </label>
         </div>
         <div>
-          <label>
-            Image
+          <label htmlFor="image">
+            image
             <input
+              id="image"
               type="file"
               name="image"
               placeholder="Introduce an image"
